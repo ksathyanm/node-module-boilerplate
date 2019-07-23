@@ -1,0 +1,42 @@
+{
+  "name": "module-name",
+  "version": "0.0.0",
+  "description": "My awesome module",
+  "keywords": [
+    "unicorn",
+    "fun"
+  ],
+  "homepage": "https://github.com/ksathyanm/module-name#readme",
+  "bugs": {
+    "url": "https://github.com/ksathyanm/module-name/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksathyanm/module-name.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Sathyamoorthi Kandhasamy",
+    "email": "ksathyanm@gmail.com",
+    "url": "https://github.com/ksathyanm"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "mocha ./test.js --timeout 10000"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-google": "^0.13.0",
+    "mocha": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
