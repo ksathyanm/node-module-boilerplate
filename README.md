@@ -21,20 +21,20 @@ $ curl -fsSL https://github.com/ksathyanm/node-module-boilerplate/archive/master
 
 ---
 
-# module-name [![Build Status](https://dev.azure.com/ksathyanm/GitHub/_apis/build/status/ksathyanm.module-name?branchName=master)](https://dev.azure.com/ksathyanm/GitHub/_build/latest?definitionId=1&branchName=master)
+# node-module-boilerplate [![Build Status](https://dev.azure.com/ksathyanm/GitHub/_apis/build/status/ksathyanm.node-module-boilerplate?branchName=master)](https://dev.azure.com/ksathyanm/GitHub/_build/latest?definitionId=1&branchName=master)
 
 > My awesome module
 
 ## Install
 
 ```
-$ npm install module-name
+$ npm install node-module-boilerplate
 ```
 
 ## Usage
 
 ```js
-const unicornFun = require("module-name");
+const unicornFun = require("node-module-boilerplate");
 
 unicornFun("unicorns");
 //=> "unicorns & rainbows"

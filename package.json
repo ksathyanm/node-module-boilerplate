@@ -1,18 +1,18 @@
 {
-  "name": "module-name",
+  "name": "node-module-boilerplate",
   "version": "0.0.0",
   "description": "My awesome module",
   "keywords": [
     "unicorn",
     "fun"
   ],
-  "homepage": "https://github.com/ksathyanm/module-name#readme",
+  "homepage": "https://github.com/ksathyanm/node-module-boilerplate#readme",
   "bugs": {
-    "url": "https://github.com/ksathyanm/module-name/issues"
+    "url": "https://github.com/ksathyanm/node-module-boilerplate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksathyanm/module-name.git"
+    "url": "git+https://github.com/ksathyanm/node-module-boilerplate.git"
   },
   "license": "MIT",
   "author": {

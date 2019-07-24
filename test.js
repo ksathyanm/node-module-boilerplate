@@ -2,7 +2,7 @@
 const { expect } = require("chai")
 const unicornFun = require("./index.js")
 
-describe("module-name", () => {
+describe("node-module-boilerplate", () => {
   it("works", () => {
     expect(unicornFun("unicorns")).to.equal("unicorns & rainbows")
   })
