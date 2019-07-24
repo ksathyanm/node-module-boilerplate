@@ -21,7 +21,7 @@ $ curl -fsSL https://github.com/ksathyanm/node-module-boilerplate/archive/master
 
 ---
 
-# node-module-boilerplate [![Build Status](https://dev.azure.com/ksathyanm/GitHub/_apis/build/status/ksathyanm.node-module-boilerplate?branchName=master)](https://dev.azure.com/ksathyanm/GitHub/_build/latest?definitionId=1&branchName=master)
+# node-module-boilerplate [![Build Status](https://dev.azure.com/ksathyanm/GitHub/_apis/build/status/ksathyanm.node-module-boilerplate?branchName=master)](https://dev.azure.com/ksathyanm/GitHub/_build/latest?definitionId=2&branchName=master)
 
 > My awesome module
 
