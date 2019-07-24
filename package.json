@@ -6,19 +6,10 @@
     "boilerplate"
   ],
   "homepage": "https://github.com/ksathyanm/node-module-boilerplate#readme",
-  "bugs": {
-    "url": "https://github.com/ksathyanm/node-module-boilerplate/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ksathyanm/node-module-boilerplate.git"
-  },
+  "bugs": "https://github.com/ksathyanm/node-module-boilerplate/issues",
+  "repository": "ksathyanm/node-module-boilerplate",
   "license": "MIT",
-  "author": {
-    "name": "Sathyamoorthi Kandhasamy",
-    "email": "ksathyanm@gmail.com",
-    "url": "https://github.com/ksathyanm"
-  },
+  "author": "Sathyamoorthi Kandhasamy",
   "files": [
     "index.js"
   ],
