@@ -1,28 +1,35 @@
-# Node.js
-# Build a general Node.js project with npm.
-# Add steps that analyze code, save build artifacts, deploy, and more:
+# Azure DevOps Pipeline for Node.js
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 strategy:
   matrix:
-    linux_node_8_x:
+    linux_node_8:
       imageName: 'ubuntu-latest'
       node_version: 8.x
-    linux_node_10_x:
+    linux_node_10:
       imageName: 'ubuntu-latest'
       node_version: 10.x
-    mac_node_8_x:
-      imageName: 'macos-10.13'
+    linux_node_12:
+      imageName: 'ubuntu-latest'
+      node_version: 12.x
+    macos_node_8:
+      imageName: 'macos-latest'
       node_version: 8.x
-    mac_node_10_x:
-      imageName: 'macos-10.13'
+    macos_node_10:
+      imageName: 'macos-latest'
       node_version: 10.x
-    windows_node_8_x:
-      imageName: 'vs2017-win2016'
+    macos_node_12:
+      imageName: 'macos-latest'
+      node_version: 12.x
+    windows_node_8:
+      imageName: 'windows-latest'
       node_version: 8.x
-    windows_node_10_x:
-      imageName: 'vs2017-win2016'
+    windows_node_10:
+      imageName: 'windows-latest'
       node_version: 10.x
+    windows_node_12:
+      imageName: 'windows-latest'
+      node_version: 12.x
 
 pool:
   vmImage: $(imageName)
@@ -33,8 +40,8 @@ steps:
     versionSpec: $(node_version)
   displayName: 'Install Node.js'
 
-- script: |
-    npm install
-    npm run lint
-    npm run test
-  displayName: 'npm install, lint and test'
+- script: 'npm install'
+  displayName: 'Install Dependencies'
+
+- script: 'npm run ci'
+  displayName: 'Run Tests'

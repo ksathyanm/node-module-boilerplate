@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "description": "My awesome module",
   "keywords": [
-    "unicorn",
-    "fun"
+    "boilerplate"
   ],
   "homepage": "https://github.com/ksathyanm/node-module-boilerplate#readme",
   "bugs": {
@@ -25,6 +24,7 @@
   ],
   "main": "index.js",
   "scripts": {
+    "ci": "npm run lint && npm run test",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "mocha ./test.js --timeout 10000"
@@ -37,6 +37,6 @@
     "mocha": "^6.2.0"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=8"
   }
 }
