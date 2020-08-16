@@ -1,21 +1,23 @@
 module.exports = {
   "env": {
-    "commonjs": true,
-    "es6": true,
     "node": true,
+    "commonjs": true,
+    "es2020": true,
   },
   "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended",
     "google",
-    "eslint:recommended"
   ],
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaVersion": 2020,
+    "sourceType": "script",
   },
   "rules": {
     "quotes": ["error", "double"],
     "max-len": ["error", { "code": 120 }],
     "new-cap": ["off"],
     "object-curly-spacing": ["error", "always"],
-    "semi": ["error", "never"]
+    "semi": ["error", "never"],
   },
 }
