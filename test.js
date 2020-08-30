@@ -4,6 +4,7 @@ const unicornFun = require("./index.js")
 
 describe("node-module-boilerplate", () => {
   it("works", () => {
-    expect(unicornFun("unicorns")).to.equal("unicorns & rainbows")
+    const result = unicornFun("unicorns")
+    expect(result).to.equal("unicorns & rainbows")
   })
 })
