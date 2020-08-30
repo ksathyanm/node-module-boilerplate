@@ -21,7 +21,16 @@ $ curl -fsSL https://github.com/ksathyanm/node-module-boilerplate/archive/master
 
 ---
 
-# node-module-boilerplate [![Build Status](https://dev.azure.com/ksathyanm/GitHub/_apis/build/status/ksathyanm.node-module-boilerplate?branchName=master)](https://dev.azure.com/ksathyanm/GitHub/_build/latest?definitionId=2&branchName=master)
+# node-module-boilerplate
+
+![Test windows status](https://github.com/ksathyanm/node-module-boilerplate/workflows/test-windows/badge.svg)
+![Test macOS status](https://github.com/ksathyanm/node-module-boilerplate/workflows/test-macOS/badge.svg)
+![Test linux status](https://github.com/ksathyanm/node-module-boilerplate/workflows/test-linux/badge.svg)
+
+[![NPM Version](https://img.shields.io/npm/v/node-module-boilerplate)](https://www.npmjs.com/package/node-module-boilerplate)
+[![Node.js Version](https://img.shields.io/node/v/node-module-boilerplate)](https://nodejs.org/en/download/)
+[![NPM Downloads](https://img.shields.io/npm/dw/node-module-boilerplate)](https://www.npmjs.com/package/node-module-boilerplate)
+[![Known Vulnerabilities](https://snyk.io/test/npm/node-module-boilerplate/badge.svg)](https://snyk.io/test/npm/node-module-boilerplate)
 
 > My awesome module
 
@@ -34,9 +43,9 @@ $ npm install node-module-boilerplate
 ## Usage
 
 ```js
-const unicornFun = require("node-module-boilerplate");
+const unicornFun = require("node-module-boilerplate")
 
-unicornFun("unicorns");
+unicornFun("unicorns")
 //=> "unicorns & rainbows"
 ```
 
@@ -56,7 +65,7 @@ Type: `object`
 
 ##### postfix
 
-Type: `string`<br>
+Type: `string`\
 Default: `rainbows`
 
 Lorem ipsum.
